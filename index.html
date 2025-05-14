@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Besctop 2025 — Няшный клиент Discord</title>
+    <title>Besctop 2025 — Cute Discord Client</title>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -25,7 +25,7 @@
             overflow-x: hidden;
         }
 
-        /* Хедер */
+        /* Header */
         header {
             background: rgba(28, 28, 28, 0.9);
             backdrop-filter: blur(10px);
@@ -54,7 +54,7 @@
             text-shadow: var(--glow) rgba(255, 100, 249, 0.3);
         }
 
-        /* Главный экран */
+        /* Hero Section */
         .hero {
             min-height: 100vh;
             display: flex;
@@ -106,7 +106,7 @@
             margin-right: auto;
         }
 
-        /* Кнопки */
+        /* Buttons */
         .btn {
             display: inline-flex;
             align-items: center;
@@ -157,7 +157,7 @@
             box-shadow: 0 0 30px rgba(255, 100, 249, 0.7);
         }
 
-        /* Секция фич */
+        /* Features Section */
         .features {
             padding: 6rem 2rem;
             background: var(--dark-bg);
@@ -214,50 +214,7 @@
             line-height: 1.6;
         }
 
-        /* Дополнительные секции */
-        .cta {
-            padding: 6rem 2rem;
-            text-align: center;
-            background: linear-gradient(135deg, rgba(28,28,28,0.9) 0%, rgba(28,28,28,0.95) 100%);
-            position: relative;
-        }
-
-        .discord-widget {
-            width: 100%;
-            max-width: 1000px;
-            height: 500px;
-            margin: 3rem auto;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 0 30px rgba(107, 95, 255, 0.3);
-        }
-
-        footer {
-            padding: 3rem 2rem;
-            background: rgba(18, 18, 24, 0.8);
-            text-align: center;
-            border-top: 1px solid rgba(107, 95, 255, 0.2);
-        }
-
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-
-        .social-link {
-            color: var(--text-light);
-            font-size: 1.5rem;
-            transition: all 0.3s ease;
-        }
-
-        .social-link:hover {
-            color: var(--pink);
-            transform: scale(1.2);
-        }
-
-        /* Анимации */
+        /* Animations */
         @keyframes float {
             0%, 100% { transform: translateY(0); }
             50% { transform: translateY(-10px); }
@@ -267,7 +224,7 @@
             animation: float 4s ease-in-out infinite;
         }
 
-        /* Адаптивность */
+        /* Responsiveness */
         @media (max-width: 768px) {
             h1 {
                 font-size: 2.5rem;
@@ -290,194 +247,83 @@
     </style>
 </head>
 <body>
-    <!-- Хедер -->
+    <!-- Header -->
     <header>
         <div class="nav-container">
             <div class="logo">Besctop</div>
             <div>
                 <a href="https://discord.gg/JxVZueTH2H" class="btn btn-primary">
-                    <i class="fab fa-discord"></i> Наш сервер
+                    <i class="fab fa-discord"></i> Our Server
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- Главный экран -->
+    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
             <h1>Besctop 2025</h1>
-            <p class="subtitle">Самый няшный клиент Discord с расширенными возможностями кастомизации, улучшенной производительностью и уникальными функциями</p>
+            <p class="subtitle">The cutest Discord client with enhanced customization, better performance, and unique features.</p>
             <div>
                 <a href="#features" class="btn">
-                    <i class="fas fa-star"></i> Возможности
+                    <i class="fas fa-star"></i> Features
                 </a>
                 <a href="https://boosty.to/besctop" class="btn btn-primary">
-                    <i class="fas fa-heart"></i> Поддержать
+                    <i class="fas fa-heart"></i> Support Us
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Секция фич -->
+    <!-- Features Section -->
     <section id="features" class="features">
         <div class="features-grid">
-            <!-- Фича 1 -->
+            <!-- Feature 1 -->
             <div class="feature-card">
                 <div class="feature-icon">
                     <i class="fas fa-paint-brush"></i>
                 </div>
-                <h3 class="feature-title">Глубокая кастомизация</h3>
+                <h3 class="feature-title">Deep Customization</h3>
                 <p class="feature-desc">
-                    500+ тем и 1000+ плагинов для полной персонализации интерфейса. 
-                    Редактор тем с live-превью.
+                    500+ themes and 1000+ plugins for complete interface personalization. 
+                    Live theme editor with live preview.
                 </p>
             </div>
 
-            <!-- Фича 2 -->
+            <!-- Feature 2 -->
             <div class="feature-card">
                 <div class="feature-icon">
                     <i class="fas fa-bolt"></i>
                 </div>
-                <h3 class="feature-title">Ультра оптимизация</h3>
+                <h3 class="feature-title">Ultra Optimization</h3>
                 <p class="feature-desc">
-                    Потребляет на 70% меньше RAM чем стандартный клиент. 
-                    Поддержка 500+ вкладок без лагов.
+                    Uses 70% less RAM than the standard client. 
+                    Supports 500+ tabs without lag.
                 </p>
             </div>
 
-            <!-- Фича 3 -->
+            <!-- Feature 3 -->
             <div class="feature-card">
                 <div class="feature-icon">
                     <i class="fas fa-shield-alt"></i>
                 </div>
-                <h3 class="feature-title">Максимальная защита</h3>
+                <h3 class="feature-title">Maximum Security</h3>
                 <p class="feature-desc">
-                    Встроенный анти-краш, защита от слежки и автоматическое 
-                    резервное копирование настроек.
+                    Built-in anti-crash, privacy protection, and automatic settings backup.
                 </p>
             </div>
 
-            <!-- Фича 4 -->
+            <!-- Feature 4 -->
             <div class="feature-card">
                 <div class="feature-icon">
                     <i class="fas fa-robot"></i>
                 </div>
-                <h3 class="feature-title">AI ассистент</h3>
+                <h3 class="feature-title">AI Assistant</h3>
                 <p class="feature-desc">
-                    Встроенный искусственный интеллект помогает модерации, 
-                    отвечает на вопросы и автоматизирует рутину.
-                </p>
-            </div>
-
-            <!-- Фича 5 -->
-            <div class="feature-card">
-                <div class="feature-icon">
-                    <i class="fas fa-plug"></i>
-                </div>
-                <h3 class="feature-title">Модульность</h3>
-                <p class="feature-desc">
-                    Включайте только нужные функции. Каждый модуль можно 
-                    отключить для экономии ресурсов.
-                </p>
-            </div>
-
-            <!-- Фича 6 -->
-            <div class="feature-card">
-                <div class="feature-icon">
-                    <i class="fas fa-users"></i>
-                </div>
-                <h3 class="feature-title">Коллективные чаты</h3>
-                <p class="feature-desc">
-                    Новый тип чатов с совместным управлением и встроенными 
-                    инструментами для сообществ.
-                </p>
-            </div>
-
-            <!-- Фича 7 -->
-            <div class="feature-card">
-                <div class="feature-icon">
-                    <i class="fas fa-music"></i>
-                </div>
-                <h3 class="feature-title">Улучшенный звук</h3>
-                <p class="feature-desc">
-                    Профессиональные аудио-фильтры, шумоподавление AI и 
-                    кастомные эквалайзеры для музыки.
-                </p>
-            </div>
-
-            <!-- Фича 8 -->
-            <div class="feature-card">
-                <div class="feature-icon">
-                    <i class="fas fa-gamepad"></i>
-                </div>
-                <h3 class="feature-title">Гейм-режим</h3>
-                <p class="feature-desc">
-                    Автоматическая оптимизация для стриминга, оверлей с 
-                    чатом и статистикой в играх.
+                    A built-in AI that helps with moderation, answers questions, and provides suggestions.
                 </p>
             </div>
         </div>
     </section>
-
-    <!-- CTA секция -->
-    <section class="cta">
-        <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Присоединяйтесь к нашему сообществу</h2>
-        <p style="max-width: 800px; margin: 0 auto 2rem; font-size: 1.2rem;">
-            Обсуждайте новые фичи, предлагайте идеи и получайте поддержку от разработчиков
-        </p>
-        
-        <div class="discord-widget">
-            <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
-                new Crate({
-                    server: '1348584074532487220', // BeSctop
-                    channel: '1348584074964373544' // #chat
-                })
-            </script>
-        </div>
-        
-        <a href="https://boosty.to/besctop" class="btn btn-primary" style="margin-top: 2rem;">
-            <i class="fas fa-gem"></i> Подписка на Boosty
-        </a>
-    </section>
-
-    <!-- Футер -->
-    <footer>
-        <p>© 2025 Besctop Project. Все права защищены.</p>
-        <div class="social-links">
-            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-            <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
-            <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
-            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
-        </div>
-    </footer>
-
-    <script>
-        // Плавная прокрутка
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        // Анимация карточек при скролле
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, { threshold: 0.1 });
-
-        document.querySelectorAll('.feature-card').forEach(card => {
-            card.style.opacity = '0';
-            card.style.transform = 'translateY(20px)';
-            card.style.transition = 'all 0.6s ease';
-            observer.observe(card);
-        });
-    </script>
 </body>
 </html>
